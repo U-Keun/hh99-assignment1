@@ -10,6 +10,7 @@ public class Main{
             numbers[i] = numbers[j];
             numbers[j] = tmp;
         }
+
         answer = Arrays.copyOf(numbers,3);
         System.out.println("컴퓨터가 숫자를 생성했습니다. 답을 맞춰보세요!");
         Scanner sc = new Scanner(System.in);
